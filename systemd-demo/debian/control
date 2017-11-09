@@ -1,0 +1,11 @@
+Source: systemd-demo
+Section: test
+Priority: optional
+Maintainer: Christopher Bunn <_@bunn.cc>
+Build-Depends: debhelper (>=9.0.0),
+               dh-systemd (>= 1.5)
+Standards-Version: 4.0.0
+
+Package: systemd-demo
+Architecture: any
+Description: A bare-bones example package with systemd
