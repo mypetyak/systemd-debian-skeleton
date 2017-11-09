@@ -1,0 +1,8 @@
+[Unit]
+Description=Simple demonstration service
+
+[Service]
+ExecStart=/bin/ping google.com
+
+[Install]
+WantedBy=multi-user.target
